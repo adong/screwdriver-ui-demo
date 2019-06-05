@@ -6,21 +6,21 @@
     <title>screwdriver.cd</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="/assets/supplementary_config.js" integrity=""></script>
+    <script src="/screwdriver-ui-demo/assets/supplementary_config.js" integrity=""></script>
 
     
-<meta name="screwdriver-ui/config/environment" content="%7B%22modulePrefix%22%3A%22screwdriver-ui%22%2C%22environment%22%3A%22development%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy%22%2C%22contentSecurityPolicy%22%3A%7B%22style-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%5D%2C%22connect-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2Flocalhost%3A9001%22%2C%22http%3A%2F%2F172.131.215.191%3A9002%22%5D%2C%22worker-src%22%3A%5B%22blob%3A%22%5D%2C%22img-src%22%3A%5B%22'self'%22%2C%22https%3A%22%2C%22data%3A%22%2C%22*.githubusercontent.com%22%2C%22bitbucket.org%2Faccount%2F*%2Favatar%2F*%22%5D%2C%22default-src%22%3A%5B%22'none'%22%5D%2C%22script-src%22%3A%5B%22'self'%22%5D%2C%22font-src%22%3A%5B%22'self'%22%5D%2C%22media-src%22%3A%5B%22'self'%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22APP%22%3A%7B%22SDAPI_HOSTNAME%22%3A%22http%3A%2F%2Flocalhost%3A9001%22%2C%22SDAPI_NAMESPACE%22%3A%22v4%22%2C%22SDSTORE_HOSTNAME%22%3A%22http%3A%2F%2F172.131.215.191%3A9002%22%2C%22SDSTORE_NAMESPACE%22%3A%22v1%22%2C%22SDDOC_URL%22%3A%22http%3A%2F%2Fdocs.screwdriver.cd%22%2C%22SLACK_URL%22%3A%22http%3A%2F%2Fslack.screwdriver.cd%22%2C%22BUILD_RELOAD_TIMER%22%3A5000%2C%22EVENT_RELOAD_TIMER%22%3A5000%2C%22LOG_RELOAD_TIMER%22%3A1000%2C%22NUM_EVENTS_LISTED%22%3A5%2C%22NUM_PIPELINES_LISTED%22%3A50%2C%22MAX_LOG_LINES%22%3A1000%2C%22DEFAULT_LOG_PAGE_SIZE%22%3A10%2C%22FORCE_RELOAD_WAIT%22%3A100%2C%22name%22%3A%22screwdriver-ui%22%2C%22version%22%3A%222.0.0%2Bcfcb4516%22%7D%2C%22moment%22%3A%7B%22allowEmpty%22%3Atrue%7D%2C%22RAISE_ON_DEPRECATION%22%3Atrue%2C%22LOG_STACKTRACE_ON_DEPRECATION%22%3Atrue%2C%22ember-toggle%22%3A%7B%22defaultSize%22%3A%22small%22%7D%2C%22ember-component-css%22%3A%7B%22terseClassNames%22%3Afalse%7D%2C%22exportApplicationGlobal%22%3Atrue%2C%22ember-modal-dialog%22%3A%7B%7D%7D" />
+<meta name="screwdriver-ui/config/environment" content="%7B%22modulePrefix%22%3A%22screwdriver-ui%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Fscrewdriver-ui-demo%2F%22%2C%22locationType%22%3A%22hash%22%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy%22%2C%22contentSecurityPolicy%22%3A%7B%22style-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%5D%2C%22connect-src%22%3A%5B%22'self'%22%2C%22https%3A%2F%2Fapi.screwdriver.cd%22%2C%22https%3A%2F%2Fstore.screwdriver.cd%22%5D%2C%22worker-src%22%3A%5B%22blob%3A%22%5D%2C%22img-src%22%3A%5B%22'self'%22%2C%22https%3A%22%2C%22data%3A%22%2C%22*.githubusercontent.com%22%2C%22bitbucket.org%2Faccount%2F*%2Favatar%2F*%22%5D%2C%22default-src%22%3A%5B%22'none'%22%5D%2C%22script-src%22%3A%5B%22'self'%22%5D%2C%22font-src%22%3A%5B%22'self'%22%5D%2C%22media-src%22%3A%5B%22'self'%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22APP%22%3A%7B%22SDAPI_HOSTNAME%22%3A%22https%3A%2F%2Fapi.screwdriver.cd%22%2C%22SDAPI_NAMESPACE%22%3A%22v4%22%2C%22SDSTORE_HOSTNAME%22%3A%22https%3A%2F%2Fstore.screwdriver.cd%22%2C%22SDSTORE_NAMESPACE%22%3A%22v1%22%2C%22SDDOC_URL%22%3A%22http%3A%2F%2Fdocs.screwdriver.cd%22%2C%22SLACK_URL%22%3A%22http%3A%2F%2Fslack.screwdriver.cd%22%2C%22BUILD_RELOAD_TIMER%22%3A5000%2C%22EVENT_RELOAD_TIMER%22%3A60000%2C%22LOG_RELOAD_TIMER%22%3A1000%2C%22NUM_EVENTS_LISTED%22%3A5%2C%22NUM_PIPELINES_LISTED%22%3A50%2C%22MAX_LOG_LINES%22%3A1000%2C%22DEFAULT_LOG_PAGE_SIZE%22%3A10%2C%22FORCE_RELOAD_WAIT%22%3A100%2C%22name%22%3A%22screwdriver-ui%22%2C%22version%22%3A%222.0.0%2Bcfcb4516%22%7D%2C%22moment%22%3A%7B%22allowEmpty%22%3Atrue%7D%2C%22ember-toggle%22%3A%7B%22defaultSize%22%3A%22small%22%7D%2C%22ember-component-css%22%3A%7B%22terseClassNames%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22ember-modal-dialog%22%3A%7B%7D%7D" />
 
-    <link integrity="" rel="stylesheet" href="/assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="/assets/screwdriver-ui.css">
+    <link integrity="" rel="stylesheet" href="/screwdriver-ui-demo/assets/vendor-17d17db990f2e77d86b0bd14f9609521.css">
+    <link integrity="" rel="stylesheet" href="/screwdriver-ui-demo/assets/screwdriver-ui-3a4579f6243750bc54abfe9c34775f58.css">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png?v=A0RbkpndO6">
-    <link rel="icon" type="image/png" href="/assets/icons/favicon-32x32.png?v=A0RbkpndO6" sizes="32x32">
-    <link rel="icon" type="image/png" href="/assets/icons/favicon-16x16.png?v=A0RbkpndO6" sizes="16x16">
-    <link rel="manifest" href="/assets/icons/manifest.json?v=A0RbkpndO6">
-    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg?v=A0RbkpndO6" color="#0034a3">
-    <link rel="shortcut icon" href="/favicon.ico?v=A0RbkpndO6">
-    <meta name="msapplication-config" content="/assets/icons/browserconfig.xml?v=A0RbkpndO6">
+    <link rel="apple-touch-icon" sizes="180x180" href="/screwdriver-ui-demo/assets/icons/apple-touch-icon-4dc477fd7e041b97db9d7f164927406b.png?v=A0RbkpndO6">
+    <link rel="icon" type="image/png" href="/screwdriver-ui-demo/assets/icons/favicon-32x32-c883df8bd92ffe8cb3d0d638414c2662.png?v=A0RbkpndO6" sizes="32x32">
+    <link rel="icon" type="image/png" href="/screwdriver-ui-demo/assets/icons/favicon-16x16-2a312ec7cc73e2070215cd71c818122e.png?v=A0RbkpndO6" sizes="16x16">
+    <link rel="manifest" href="/screwdriver-ui-demo/assets/icons/manifest.json?v=A0RbkpndO6">
+    <link rel="mask-icon" href="/screwdriver-ui-demo/assets/icons/safari-pinned-tab.svg?v=A0RbkpndO6" color="#0034a3">
+    <link rel="shortcut icon" href="/screwdriver-ui-demo/favicon.ico?v=A0RbkpndO6">
+    <meta name="msapplication-config" content="/screwdriver-ui-demo/assets/icons/browserconfig.xml?v=A0RbkpndO6">
     <meta name="theme-color" content="#b9bdc5">
 
     
@@ -28,8 +28,8 @@
   <body>
     
 
-    <script src="/assets/vendor.js"></script>
-    <script src="/assets/screwdriver-ui.js"></script>
+    <script src="/screwdriver-ui-demo/assets/vendor-aaf096766af14f67da5cab9c06baddb8.js"></script>
+    <script src="/screwdriver-ui-demo/assets/screwdriver-ui-5104da6e4aeff36095b43e01b310f007.js"></script>
 
     <div id="ember-bootstrap-wormhole"></div>
   </body>
